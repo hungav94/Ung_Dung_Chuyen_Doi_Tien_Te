@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng chuyển đổi tiền tệ</title>
+    <script src="myscript.js"></script>
+</head>
+<body>
+<form name="myform">
+    Amount
+    <input type="text" id="amount"/>
+    From Currency
+    <select id="fromC">
+        <option value="vnd">Việt Nam</option>
+        <option value="usd">USD</option>
+    </select>
+    To Currency
+    <select id="toC">
+        <option value="usd">USD</option>
+        <option value="vnd">Việt Nam</option>
+    </select>
+    <button type="button" onclick="showMessage();">Convert</button>
+    <br>
+    <br>
+    result : <span id="result"></span>
+</form>
+</body>
+</html>
